@@ -1,0 +1,59 @@
+# Nmap 7.95 scan initiated Wed Aug  6 04:08:58 2025 as: /usr/lib/nmap/nmap -sS -oN scan_results.txt 192.168.31.0/24
+Nmap scan report for jiofiber.local.html (192.168.31.1)
+Host is up (0.0095s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE
+53/tcp   open  domain
+80/tcp   open  http
+443/tcp  open  https
+7443/tcp open  oracleas-https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+MAC Address: 7C:BF:77:CA:48:92 (Speedtech)
+
+Nmap scan report for iPhone-117.lan (192.168.31.41)
+Host is up (0.014s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT      STATE SERVICE
+62078/tcp open  iphone-sync
+MAC Address: F2:13:5E:81:63:13 (Unknown)
+
+Nmap scan report for OnePlus-Nord-CE-2.lan (192.168.31.113)
+Host is up (0.010s latency).
+All 1000 scanned ports on OnePlus-Nord-CE-2.lan (192.168.31.113) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 1A:29:03:E0:86:31 (Unknown)
+
+Nmap scan report for IN5CG33910HZ.lan (192.168.31.118)
+Host is up (0.030s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+135/tcp open  msrpc
+MAC Address: 74:13:EA:E8:3F:A5 (Intel Corporate)
+
+Nmap scan report for Samsung.lan (192.168.31.142)
+Host is up (0.010s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+7000/tcp open  afs3-fileserver
+8001/tcp open  vcom-tunnel
+8002/tcp open  teradataordbms
+8080/tcp open  http-proxy
+MAC Address: 4C:57:39:53:C4:CA (Samsung Electronics)
+
+Nmap scan report for Radhesyam.lan (192.168.31.186)
+Host is up (0.00085s latency).
+Not shown: 997 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 40:1A:58:DA:E6:AA (Wistron Neweb)
+
+Nmap scan report for kali.lan (192.168.31.114)
+Host is up (0.0000030s latency).
+All 1000 scanned ports on kali.lan (192.168.31.114) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+# Nmap done at Wed Aug  6 04:18:06 2025 -- 256 IP addresses (7 hosts up) scanned in 547.61 seconds
