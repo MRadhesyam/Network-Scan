@@ -10,12 +10,13 @@ Network scanning task using Nmap to identify open ports and services on local ne
 
 ## Findings:
 - Device 192.168.31.41: Open ports 62078 (TCP)
-- Device 192.168.31.113: No open Ports
+- Device 192.168.31.113: Open ports 22 (ssh)
 - Device 192.168.31.118: Open ports 80 and 135 (TCP)
 - Device 192.168.31.142: Open ports 7000, 8001,8002, 8080 (TCP)
 - Device 192.168.31.186: Open ports 135, 139, 445 (TCP)
-- Device 192.168.1.15: Open ports 443 (HTTPS)
+- Device 192.168.31.15: Open ports 443 (HTTPS)
 
 ## Security Risks:
 - SSH (22) → Brute force risk if weak credentials.
 - HTTP (80) → Data not encrypted.
+
